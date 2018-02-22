@@ -1,0 +1,44 @@
+[general]
+format = wav49|gsm|wav
+servermail=asterisk
+attach=yes
+skipms=3000
+maxsilence=10
+silencethreshold=128
+maxlogins=3
+emaildateformat=%A,%B %d, %Y at %r 
+pagerdateformat=%A, %B %d,%Y at %r
+sendvoicemail=yes;
+[zonemessages]
+
+
+[default]
+1234 => 4242,Example Mailbox,root@localhost
+1000 => 1234,1000,biniyam1985@gmail.com
+1001 => 1234,1000,john@gmail.com
+
+
+
+
+
+
+;[other]
+;1234 => 5678,Company2 User,root@localhost
+
+
+[example]
+1101 = 0717,Maria Berny
+1102 = 7085,Tommie Briar
+1103 = 1809,Penelope Bronte
+1104 = 0039,Richard Casey
+1105 = 6618,Garnet Claude
+1106 = 9805,Aaron Courtney
+1107 = 7484,Lindsey Freddie
+1108 = 7788,Colby Hildred
+1109 = 5750,Terry Jules
+1110 = 3702,Hollis Justy
+1111 = 1878,Temple Morgan
+1112 = 5497,Franny Ocean
+1113 = 1637,Laverne Roberts
+1114 = 3717,Sal Smith
+1115 = 3088,Dusty Williams

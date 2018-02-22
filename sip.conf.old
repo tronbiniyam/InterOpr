@@ -1,0 +1,11 @@
+[general]
+
+
+[1004]
+type=friend
+secret=new@log
+context=default
+host=dynamic
+dtmfmode=rfc2833
+allow=all
+ 

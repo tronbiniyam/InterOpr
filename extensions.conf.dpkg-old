@@ -1,0 +1,12 @@
+
+[employee]
+
+exten => _xxxx,1,Dial(SIP/1000,20)
+;exten => _xxxx,n,Playback()
+;exten => _xxxx,n,Hangup()
+
+exten => 1000,1,NoOp(Call for 1001)
+same => n,Dial(SIP/1002,5)
+same => n,VoiceMail(1000@default)
+same => n,Hangup
+exten => 1003,1,Dial(SIP/_xxxxxxxx)

@@ -1,0 +1,3 @@
+[default]
+exten => _10XX,1,Dial(SIP/${EXTEN})
+
